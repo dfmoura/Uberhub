@@ -11,12 +11,14 @@
 using namespace std;
 
 int main(){
-    int x;
-    cin >> x;
+    int x,y;
+    
+    cin >> x>>y;
     cout << "O valor de x eh: "<< x << endl;
     for(int i = 0; i < x;i++){
         cout << i << " ";
     }
+
 // Estruturas condicionais
 
 
@@ -27,8 +29,24 @@ int main(){
     }else{
         cout<<"X eh menor que 10\n"<<endl;
     }
+
+
 // Estruturas de repetição
     for(int i = 0; i<10; i++){
         cout<<i<<endl;
     }
+
+
+// soma
+
+    cout << "X = "<<x+y << endl;
+
+
+// Estrutura de repeticao
+//  Faça um programa que mostre os números pares entre 1 e 100, inclusive.
+    
+    for(int i = 1; i<=100; i++){
+        if (i%2 == 0){cout<<i<<endl;}
+    }
+
 }
