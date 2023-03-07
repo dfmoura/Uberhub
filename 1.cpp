@@ -17,19 +17,18 @@ int main(){
     for(int i = 0; i < x;i++){
         cout << i << " ";
     }
-
-}
-
 // Estruturas condicionais
 
-int main(){
-    int x;
-    cin >>x;
+
     if (x == 10){
         cout<< "X vale 10\n" << endl;
     }else if(x > 10){
         cout<<"X eh maior que 10\n"<< endl;
     }else{
         cout<<"X eh menor que 10\n"<<endl;
+    }
+// Estruturas de repetição
+    for(int i = 0; i<10; i++){
+        cout<<i<<endl;
     }
 }
