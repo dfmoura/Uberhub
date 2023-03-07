@@ -1,3 +1,11 @@
+// executar o compilador: g++ -o nomeARquivo nomeArquivo.cpp
+// depois: ./nomeArquivo
+
+// Revisao basica 
+//    Comandos de entrada e saída;​
+// scanf() -> cin​
+// printf() -> cout
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -10,4 +18,18 @@ int main(){
         cout << i << " ";
     }
 
+}
+
+// Estruturas condicionais
+
+int main(){
+    int x;
+    cin >>x;
+    if (x == 10){
+        cout<< "X vale 10\n" << endl;
+    }else if(x > 10){
+        cout<<"X eh maior que 10\n"<< endl;
+    }else{
+        cout<<"X eh menor que 10\n"<<endl;
+    }
 }
