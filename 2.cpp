@@ -15,6 +15,7 @@ int main(){
     for(int i = 0;i < N; i++){
         cin >> aux;
         vet.push_back(aux);
+        //Insere “elem”  ao final do vetor
     }
 
 // Calcula a soma total do vetor
