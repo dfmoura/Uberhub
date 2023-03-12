@@ -12,7 +12,5 @@ int main(){
 		vet.push_back(aux);
 	}
 	cin>>c;
-	for(int i = 0; i<N;i++){
-		if(vet.at(i) ==c){a="SIM";}
-}if (a == "SIM"){cout<<"SIM"<<endl;}else{cout<<"NAO"<<endl;}
+
 }
