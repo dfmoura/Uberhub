@@ -25,4 +25,4 @@ int main(){
     }
     cout << "Menor valor: " << menor_val << endl;
     cout << "Posicao: " << posicao << endl;
-}   
+}    

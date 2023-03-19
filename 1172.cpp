@@ -27,4 +27,4 @@ int main(){
         cout<<"X["<<i<<"] = "<<x[i]<<endl;
     }
 }
-    
+     
