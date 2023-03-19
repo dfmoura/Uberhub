@@ -32,6 +32,4 @@ int main(){
     media = soma / (double) vet.size();
     cout << media << endl;
 
-
-
 }

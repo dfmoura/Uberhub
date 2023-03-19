@@ -2,7 +2,7 @@
 using namespace std;
 
 
-//verificar o tamanho de uma string 
+//verificar o tamanho de uma string
 
 int main(){
     string str;
