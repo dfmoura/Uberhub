@@ -10,11 +10,10 @@ using namespace std;
 
 int main(){
     int vetor[10], vetor2[10];
-    int aux, qtd=0,j=0;
+    int i=0,qtd=0,j=0;
     for(int i=0; i<10; i++){
         cin>>vetor[i];
     }
-    
     int busca;
     cin>>busca;
     
@@ -25,7 +24,6 @@ int main(){
             j++;
         }
     }
-
     if( qtd > 0 ){
         cout<<qtd<<endl;
         for(int i =0;i<qtd;i++){
