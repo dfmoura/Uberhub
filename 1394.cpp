@@ -3,6 +3,10 @@ using namespace std;
 
 int main(){
 
+    cout<<"Este programa tem objetivo de verificar se uma palavra ou frase eh um palindromo"<<endl;
+    cout<<"Palindromos sao palavras que ao reverter a escrita continuam identicas"
+    cout<<"Getileza digitar a frase sem espacos"
+    cout<<"Exemplo: Subi no Onibus --- Digitar: Subinoonibus"
     string str, str1;
     getline(cin,str);
     str1=str;
