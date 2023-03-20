@@ -21,7 +21,10 @@ int main(){
 
     string str1;
     getline(cin,str1);
-    if((str1.find("Reluew") == string::npos) && (str1.find("Markinhos") == string::npos)){return 0;}
+    if((str1.find("Reluew") == string::npos) && (str1.find("Markinhos") == string::npos)){
+        cout<<"Nao eh possivel descriptografar!"<<endl;
+        return 0;
+    }
     int posicao;
     cin>>posicao;
     string str2;
@@ -33,7 +36,7 @@ int main(){
         str2[i] = teste;
     }
     if(str2 ==""){
-        cout<<"Nao eh possivel descriptografar!"<<endl;
+        
     }else{
         cout<< str2<< endl;
     }
