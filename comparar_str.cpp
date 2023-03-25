@@ -13,6 +13,7 @@ int main(){
             vogal +=c;
         }
     }
+    cout<<vogal<<endl;
     d.append((vogal.length()),vogal.at(0));
     if(d==vogal){cout<<"S"<<endl;}else{cout<<"N"<<endl;}
     
