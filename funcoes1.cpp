@@ -1,17 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int soma_posicoes(vector<int>vet){
-    int soma = 0;
-    for(int i = 0; i< vet.size();i++){
-        soma += vet.at(i);
-    }
-    return soma;
+double areaCirculo(double raio){
+    double pi = 3.14159;
+    double area = pi * raio * raio;
+    return area;
+}
+
+void mostraMensagemArea(double raio){
+    cout << "A=" << areaCirculo(raio) << endl;
 }
 
 
 int main(){
 
-    soma_posicoes
 
+    double x;
+    cin>>x;
+    double area = areaCirculo(x);
+    cout << area << endl;
+
+    mostraMensagemArea(x);
 }
