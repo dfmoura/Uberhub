@@ -11,7 +11,7 @@ double areaCirculo(double raio){
 }
 
 void mostraMensagemArea(double raio){
-    cout << "A=" << areaCirculo(raio) << endl;
+    cout <<fixed<<setprecision(4)<< "A=" << areaCirculo(raio) << endl;
 }
 
 
@@ -21,7 +21,6 @@ int main(){
     double x;
     cin>>x;
     double area = areaCirculo(x);
-    cout << area << endl;
 
     mostraMensagemArea(x);
 }

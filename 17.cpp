@@ -21,10 +21,7 @@ int main()
         cin>>vec[i];
     }
     int resultado = somaVetorDinamico(vec);
-    cout<<"A soma do vetor eh: "<<resultado<<endl;
+    cout<<resultado<<endl;
     return 0;
-    
-
-
 }
 
