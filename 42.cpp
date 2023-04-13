@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n,b;
+    int n;
     cin >> n;
     vector<string> v;
     for (int i = 0; i <= n; i++) {
@@ -12,21 +12,18 @@ int main() {
     }
     string m;
     cin>>m;
-    for (const auto& s : v) {
-        istringstream iss(s);
+    for (auto it = v.begin(); it != v.end(); it++) {
+        istringstream iss(*it);
         vector<string> palavra;
         for (string palavras; iss >> palavras; ) {
             palavra.push_back(palavras);
         }
         if (palavra.size() >= 2) {
-
-                cout<< palavra.back()<<" ";
-
-            
+            cout << palavra.back();
+            if (next(it) != v.end()) {
+                cout << " ";
+            }
         } 
     }
-    cout<<endl;
-
+    cout << endl;
 }
-
-//cout<< palavra.back()<<" ";
