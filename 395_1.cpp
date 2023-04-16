@@ -26,5 +26,4 @@ int main(){
             if( vet.at(i) == c){a="SIM";}
         }
         if (a == "SIM"){cout<<"SIM"<<endl;}else{cout<<"NAO"<<endl;}
-
 }

@@ -37,7 +37,5 @@ int main(){
         c = '9';}                
         cout<<c;
     }cout<<endl;
-    
-    
 }
     

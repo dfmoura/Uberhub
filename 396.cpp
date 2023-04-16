@@ -3,7 +3,7 @@ using namespace std;
 
 //Declarar vetor estatico
 //inserir 
-//varrer fetor e nar quantas posicoes entradas da verificacao
+//varrer vetor e nar quantas posicoes entradas da verificacao
 //mostrar onde esta cada elemento do vetor
 
 

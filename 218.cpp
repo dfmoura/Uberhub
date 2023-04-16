@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+// ler uma string e dois double, 
+//caso seja M reaalizarar a muiltiplicacao
+//caso seja D reaalizarar a muiltiplicacao
+//imprimir o resultado
 
 int main(){
     char operacao;

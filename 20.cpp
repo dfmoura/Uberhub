@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//transformar a primeira letra da string em maiusculo e as demais minusculo
+//funcao para transformar a primeira letra da string em maiusculo e as demais minusculo
 
 string primeMaiusc(string str){
     stringstream ss(str);

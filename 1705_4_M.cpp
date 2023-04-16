@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// gerar a media dos valores de uma linha e uma coluna de uma matrix, sem considerar elementos repetidos.
-
 int main() {
     int N, M, X, Y;
     cin >> N >> M >> X >> Y;
@@ -27,4 +25,5 @@ int main() {
     }
     double average = sum / elements.size();
     cout << fixed << setprecision(2) << average << endl;
+    
 }
